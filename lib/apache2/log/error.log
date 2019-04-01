@@ -1,0 +1,259 @@
+[Thu Mar 09 06:13:15.145212 2017] [mpm_prefork:notice] [pid 3162] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.21 configured -- resuming normal operations
+[Thu Mar 09 06:13:15.145279 2017] [core:notice] [pid 3162] AH00094: Command line: 'apache2'
+[Thu Mar 09 06:13:19.111307 2017] [core:info] [pid 3178] [client 10.240.1.14:60678] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://badha-montypythonkiller.c9users.io/index.html
+[Thu Mar 09 07:02:24.855662 2017] [core:info] [pid 3179] [client 10.240.1.14:33434] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://badha-montypythonkiller.c9users.io/index.html
+[Thu Mar 09 07:18:04.828741 2017] [core:info] [pid 3179] [client 10.240.0.230:49524] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://badha-montypythonkiller.c9users.io/index.html
+[Thu Mar 09 07:33:13.957489 2017] [core:info] [pid 3177] [client 10.240.0.240:51236] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: http://badha-montypythonkiller.c9users.io/index.html
+[Thu Mar 09 07:34:26.226220 2017] [core:info] [pid 3177] [client 10.240.0.5:43598] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://badha-montypythonkiller.c9users.io/index.html
+[Thu Mar 09 07:47:43.398889 2017] [core:info] [pid 3178] [client 10.240.0.230:44282] AH00128: File does not exist: /home/ubuntu/workspace/put, referer: https://badha-montypythonkiller.c9users.io/index.html
+[Thu Mar 09 08:34:26.613010 2017] [core:info] [pid 3177] [client 10.240.0.214:44216] AH00128: File does not exist: /home/ubuntu/workspace/put, referer: https://badha-montypythonkiller.c9users.io/index.html
+[Thu Mar 09 08:41:13.592324 2017] [core:info] [pid 3178] [client 10.240.0.240:60470] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://badha-montypythonkiller.c9users.io/index.html
+[Fri Mar 10 05:14:32.122160 2017] [:error] [pid 3179] [client 10.240.0.240:34992] PHP Fatal error:  Class 'SQLite3' not found in /home/ubuntu/workspace/put.php on line 11, referer: https://badha-montypythonkiller.c9users.io/index.html
+[Fri Mar 10 05:17:07.700650 2017] [:error] [pid 3180] [client 10.240.1.12:45430] PHP Fatal error:  Class 'SQLite3' not found in /home/ubuntu/workspace/put.php on line 11, referer: https://badha-montypythonkiller.c9users.io/index.html
+[Fri Mar 10 05:17:44.754757 2017] [mpm_prefork:notice] [pid 3162] AH00169: caught SIGTERM, shutting down
+[Fri Mar 10 05:17:48.842627 2017] [mpm_prefork:notice] [pid 11423] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.21 configured -- resuming normal operations
+[Fri Mar 10 05:17:48.842728 2017] [core:notice] [pid 11423] AH00094: Command line: 'apache2'
+[Fri Mar 10 05:17:53.120203 2017] [:error] [pid 11430] [client 10.240.1.12:45880] PHP Warning:  SQLite3::exec(): near &quot;,&quot;: syntax error in /home/ubuntu/workspace/put.php on line 30
+[Fri Mar 10 05:18:24.338165 2017] [:error] [pid 11434] [client 10.240.0.33:40826] PHP Warning:  SQLite3::exec(): near &quot;,&quot;: syntax error in /home/ubuntu/workspace/put.php on line 30, referer: https://badha-montypythonkiller.c9users.io/
+[Fri Mar 10 05:18:57.195247 2017] [:error] [pid 11433] [client 10.240.0.5:57286] PHP Warning:  SQLite3::exec(): 4 values for 6 columns in /home/ubuntu/workspace/put.php on line 30, referer: https://badha-montypythonkiller.c9users.io/
+[Fri Mar 10 05:20:18.729900 2017] [:error] [pid 11431] [client 10.240.0.33:42138] PHP Parse error:  syntax error, unexpected '$ret' (T_VARIABLE) in /home/ubuntu/workspace/put.php on line 27, referer: https://badha-montypythonkiller.c9users.io/
+[Fri Mar 10 05:20:44.351903 2017] [:error] [pid 11432] [client 10.240.1.16:42964] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/put.php on line 37, referer: https://badha-montypythonkiller.c9users.io/
+[Fri Mar 10 06:04:03.386268 2017] [core:info] [pid 11434] [client 10.240.0.213:53842] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://badha-montypythonkiller.c9users.io/
+[Fri Mar 10 06:32:19.376285 2017] [:error] [pid 11432] [client 10.240.0.214:53950] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/index.php on line 29
+[Fri Mar 10 06:32:34.379942 2017] [:error] [pid 11434] [client 10.240.1.12:33386] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/index.php on line 29
+[Fri Mar 10 06:32:45.822288 2017] [:error] [pid 11433] [client 10.240.0.213:41340] PHP Fatal error:  Call to undefined function str() in /home/ubuntu/workspace/index.php on line 28
+[Fri Mar 10 07:25:23.863984 2017] [:error] [pid 11431] [client 10.240.1.30:40450] PHP Fatal error:  Call to undefined function string() in /home/ubuntu/workspace/get.php on line 29, referer: https://badha-montypythonkiller.c9users.io/
+[Fri Mar 10 07:25:45.892776 2017] [:error] [pid 11434] [client 10.240.1.16:56814] PHP Fatal error:  Call to undefined function string() in /home/ubuntu/workspace/get.php on line 29, referer: https://badha-montypythonkiller.c9users.io/
+[Fri Mar 10 07:25:59.912226 2017] [:error] [pid 11430] [client 10.240.1.16:56934] PHP Fatal error:  Call to undefined function string() in /home/ubuntu/workspace/get.php on line 29, referer: https://badha-montypythonkiller.c9users.io/
+[Fri Mar 10 07:53:28.821861 2017] [mpm_prefork:notice] [pid 11423] AH00169: caught SIGTERM, shutting down
+[Fri Mar 10 07:53:31.596928 2017] [mpm_prefork:notice] [pid 13329] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.21 configured -- resuming normal operations
+[Fri Mar 10 07:53:31.596996 2017] [core:notice] [pid 13329] AH00094: Command line: 'apache2'
+[Fri Mar 10 09:36:06.453265 2017] [core:info] [pid 13338] [client 10.240.0.213:56722] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://badha-montypythonkiller.c9users.io/
+[Fri Mar 10 09:50:29.877380 2017] [:error] [pid 13338] [client 10.240.0.240:56964] PHP Warning:  include(getphp): failed to open stream: No such file or directory in /home/ubuntu/workspace/index.php on line 4
+[Fri Mar 10 09:50:29.877507 2017] [:error] [pid 13338] [client 10.240.0.240:56964] PHP Warning:  include(): Failed opening 'getphp' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/index.php on line 4
+[Fri Mar 10 09:51:11.801597 2017] [:error] [pid 13339] [client 10.240.0.5:46636] PHP Warning:  include(getphp): failed to open stream: No such file or directory in /home/ubuntu/workspace/index.php on line 4
+[Fri Mar 10 09:51:11.801653 2017] [:error] [pid 13339] [client 10.240.0.5:46636] PHP Warning:  include(): Failed opening 'getphp' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/index.php on line 4
+[Fri Mar 10 10:15:45.952235 2017] [:error] [pid 13337] [client 10.240.1.14:50700] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/get.php on line 32
+[Fri Mar 10 10:18:30.038074 2017] [:error] [pid 13338] [client 10.240.1.14:51962] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/get.php on line 32
+[Fri Mar 10 10:28:18.736889 2017] [core:info] [pid 13338] [client 10.240.0.214:52330] AH00128: File does not exist: /home/ubuntu/workspace/[object Object], referer: https://badha-montypythonkiller.c9users.io/
+[Fri Mar 10 10:28:37.008794 2017] [core:info] [pid 13339] [client 10.240.0.33:57352] AH00128: File does not exist: /home/ubuntu/workspace/[object Object], referer: https://badha-montypythonkiller.c9users.io/
+[Fri Mar 10 10:29:18.276383 2017] [core:info] [pid 13700] [client 10.240.0.213:58278] AH00128: File does not exist: /home/ubuntu/workspace/[object Object], referer: https://badha-montypythonkiller.c9users.io/
+[Fri Mar 10 11:15:49.584542 2017] [core:info] [pid 13340] [client 10.240.1.14:55700] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: http://badha-montypythonkiller.c9users.io/
+[Fri Mar 10 11:23:25.876578 2017] [core:info] [pid 13337] [client 10.240.0.241:53396] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://badha-montypythonkiller.c9users.io/
+[Fri Mar 10 11:23:43.862738 2017] [core:info] [pid 13340] [client 10.240.1.12:40876] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://badha-montypythonkiller.c9users.io/
+[Fri Mar 10 11:24:11.342338 2017] [core:info] [pid 13337] [client 10.240.1.12:41156] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://badha-montypythonkiller.c9users.io/
+[Fri Mar 10 11:52:01.483469 2017] [:error] [pid 13337] [client 10.240.0.230:59390] PHP Warning:  SQLite3::query(): Unable to prepare statement: 1, no such table: badhas in /home/ubuntu/workspace/get.php on line 22
+[Fri Mar 10 11:52:01.484347 2017] [:error] [pid 13337] [client 10.240.0.230:59390] PHP Fatal error:  Call to a member function fetchArray() on a non-object in /home/ubuntu/workspace/get.php on line 23
+[Fri Mar 10 11:57:09.332793 2017] [:error] [pid 13700] [client 10.240.1.16:39288] script '/home/ubuntu/workspace/dbclearner.php' not found or unable to stat
+[Fri Mar 10 11:57:27.123773 2017] [:error] [pid 13336] [client 10.240.1.14:46878] script '/home/ubuntu/workspace/dbclearner.php' not found or unable to stat
+[Fri Mar 10 11:57:30.683925 2017] [:error] [pid 13337] [client 10.240.1.16:39482] PHP Warning:  SQLite3::query(): Unable to prepare statement: 1, no such table: badhas in /home/ubuntu/workspace/dbcleaner.php on line 22
+[Fri Mar 10 11:57:30.683974 2017] [:error] [pid 13337] [client 10.240.1.16:39482] PHP Fatal error:  Call to a member function fetchArray() on a non-object in /home/ubuntu/workspace/dbcleaner.php on line 23
+[Fri Mar 10 12:00:04.236171 2017] [:error] [pid 13339] [client 10.240.0.213:42690] PHP Fatal error:  Undefined constant 'n' in /home/ubuntu/workspace/dbcleaner.php on line 26
+[Fri Mar 10 12:07:02.736970 2017] [:error] [pid 13700] [client 10.240.0.214:43260] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/dbcleaner.php on line 27
+[Fri Mar 10 12:23:20.069551 2017] [:error] [pid 13339] [client 10.240.0.33:55750] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/dbcleaner.php on line 25
+[Fri Mar 10 12:36:48.748233 2017] [:error] [pid 13340] [client 10.240.0.214:58144] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/dbcleaner.php on line 30
+[Fri Mar 10 12:38:16.435827 2017] [:error] [pid 13700] [client 10.240.1.12:45594] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/dbcleaner.php on line 30
+[Fri Mar 10 12:38:23.362256 2017] [:error] [pid 13336] [client 10.240.0.240:54714] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/dbcleaner.php on line 30
+[Fri Mar 10 12:55:31.510993 2017] [:error] [pid 13340] [client 10.240.0.240:34634] PHP Warning:  SQLite3::exec(): no such column: ID in /home/ubuntu/workspace/dbcleaner.php on line 40
+[Fri Mar 10 12:55:31.513875 2017] [:error] [pid 13340] [client 10.240.0.240:34634] PHP Fatal error:  Call to a member function fetchArray() on a non-object in /home/ubuntu/workspace/dbcleaner.php on line 24
+[Fri Mar 10 12:55:54.821454 2017] [:error] [pid 13700] [client 10.240.1.16:36380] PHP Warning:  SQLite3::exec(): no such column: ID in /home/ubuntu/workspace/dbcleaner.php on line 41
+[Fri Mar 10 12:55:54.821510 2017] [:error] [pid 13700] [client 10.240.1.16:36380] PHP Fatal error:  Call to a member function fetchArray() on a non-object in /home/ubuntu/workspace/dbcleaner.php on line 24
+[Fri Mar 10 13:08:54.067171 2017] [:error] [pid 13337] [client 10.240.0.213:47654] PHP Fatal error:  Call to a member function fetchArray() on a non-object in /home/ubuntu/workspace/dbcleaner.php on line 24
+[Fri Mar 10 13:10:26.486992 2017] [:error] [pid 13339] [client 10.240.1.30:37360] PHP Fatal error:  Call to a member function fetchArray() on a non-object in /home/ubuntu/workspace/dbcleaner.php on line 24
+[Fri Mar 10 13:14:06.661542 2017] [:error] [pid 13340] [client 10.240.0.214:43606] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ubuntu/workspace/dbcleaner.php on line 30
+[Fri Mar 10 13:14:06.661714 2017] [:error] [pid 13340] [client 10.240.0.214:43606] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ubuntu/workspace/dbcleaner.php on line 30
+[Fri Mar 10 13:14:36.578977 2017] [:error] [pid 13700] [client 10.240.0.33:49420] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/dbcleaner.php on line 38
+[Fri Mar 10 13:15:10.085796 2017] [:error] [pid 13336] [client 10.240.1.16:46102] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/dbcleaner.php on line 38
+[Fri Mar 10 13:15:29.799864 2017] [:error] [pid 13337] [client 10.240.0.213:49990] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/dbcleaner.php on line 38
+[Fri Mar 10 13:20:44.624964 2017] [:error] [pid 13338] [client 10.240.1.30:41826] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/dbcleaner.php on line 36
+[Fri Mar 10 13:26:52.770575 2017] [:error] [pid 13339] [client 10.240.1.14:53656] PHP Fatal error:  Call to a member function fetchArray() on a non-object in /home/ubuntu/workspace/dbcleaner.php on line 24
+[Fri Mar 10 13:31:30.281784 2017] [:error] [pid 13339] [client 10.240.1.30:46550] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/ubuntu/workspace/dbcleaner.php on line 36
+[Fri Mar 10 13:31:30.284646 2017] [:error] [pid 13339] [client 10.240.1.30:46550] PHP Warning:  strtotime() expects parameter 1 to be string, array given in /home/ubuntu/workspace/dbcleaner.php on line 36
+[Fri Mar 10 13:34:15.487360 2017] [:error] [pid 13339] [client 10.240.1.14:56394] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/dbcleaner.php on line 37
+[Fri Mar 10 13:43:36.955004 2017] [:error] [pid 13338] [client 10.240.0.214:56078] PHP Fatal error:  Call to a member function fetchArray() on a non-object in /home/ubuntu/workspace/dbcleaner.php on line 24
+[Fri Mar 10 13:44:17.704951 2017] [:error] [pid 13339] [client 10.240.1.12:47290] PHP Warning:  strtotime() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/dbcleaner.php on line 33
+[Fri Mar 10 13:44:17.705089 2017] [:error] [pid 13339] [client 10.240.1.12:47290] PHP Fatal error:  Call to a member function fetchArray() on a non-object in /home/ubuntu/workspace/dbcleaner.php on line 24
+[Fri Mar 10 13:44:37.215234 2017] [:error] [pid 13340] [client 10.240.1.30:53640] PHP Warning:  strtotime() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/dbcleaner.php on line 33
+[Fri Mar 10 13:44:37.215357 2017] [:error] [pid 13340] [client 10.240.1.30:53640] PHP Fatal error:  Call to a member function fetchArray() on a non-object in /home/ubuntu/workspace/dbcleaner.php on line 24
+[Fri Mar 10 13:44:56.718761 2017] [:error] [pid 13700] [client 10.240.0.33:35566] PHP Warning:  strtotime() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/dbcleaner.php on line 33
+[Fri Mar 10 13:44:56.718930 2017] [:error] [pid 13700] [client 10.240.0.33:35566] PHP Fatal error:  Call to a member function fetchArray() on a non-object in /home/ubuntu/workspace/dbcleaner.php on line 24
+[Fri Mar 10 13:45:30.576557 2017] [:error] [pid 13337] [client 10.240.0.213:35220] PHP Warning:  strtotime() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/dbcleaner.php on line 33
+[Fri Mar 10 13:45:30.576722 2017] [:error] [pid 13337] [client 10.240.0.213:35220] PHP Fatal error:  Call to a member function fetchArray() on a non-object in /home/ubuntu/workspace/dbcleaner.php on line 24
+[Fri Mar 10 13:46:01.135550 2017] [:error] [pid 13338] [client 10.240.0.214:56862] PHP Fatal error:  Call to a member function fetchArray() on a non-object in /home/ubuntu/workspace/dbcleaner.php on line 24
+[Fri Mar 10 13:46:54.946885 2017] [:error] [pid 13339] [client 10.240.1.16:59684] PHP Fatal error:  Call to a member function fetchArray() on a non-object in /home/ubuntu/workspace/dbcleaner.php on line 24
+[Fri Mar 10 13:51:33.745875 2017] [:error] [pid 13340] [client 10.240.1.14:36752] PHP Fatal error:  Cannot redeclare class MyDB in /home/ubuntu/workspace/dbcleaner.php on line 54
+[Fri Mar 10 13:52:00.235425 2017] [:error] [pid 13700] [client 10.240.1.16:33162] PHP Fatal error:  Cannot redeclare class MyDB in /home/ubuntu/workspace/dbcleaner.php on line 54
+[Fri Mar 10 13:52:29.464497 2017] [:error] [pid 13336] [client 10.240.0.213:38138] PHP Fatal error:  Cannot redeclare __construct() (previously declared in /home/ubuntu/workspace/dbcleaner.php:56) in /home/ubuntu/workspace/dbcleaner.php on line 54
+[Fri Mar 10 13:52:52.427780 2017] [:error] [pid 13337] [client 10.240.0.213:38342] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/dbcleaner.php on line 74
+[Fri Mar 10 13:54:03.681231 2017] [:error] [pid 13338] [client 10.240.1.14:37988] PHP Fatal error:  Call to a member function lastErrorMsg() on a non-object in /home/ubuntu/workspace/dbcleaner.php on line 56
+[Fri Mar 10 13:54:17.478302 2017] [:error] [pid 13339] [client 10.240.1.30:58728] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/dbcleaner.php on line 62
+[Fri Mar 10 13:54:43.150170 2017] [:error] [pid 13340] [client 10.240.0.214:60138] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/dbcleaner.php on line 62
+[Fri Mar 10 14:00:57.351425 2017] [:error] [pid 13700] [client 10.240.0.213:42454] PHP Fatal error:  Call to undefined function deleterow() in /home/ubuntu/workspace/dbcleaner.php on line 41
+[Fri Mar 10 14:01:13.508338 2017] [:error] [pid 13336] [client 10.240.1.14:41124] PHP Fatal error:  Call to undefined function deleterow() in /home/ubuntu/workspace/dbcleaner.php on line 41
+[Fri Mar 10 14:01:20.449452 2017] [:error] [pid 13337] [client 10.240.0.213:42632] PHP Fatal error:  Cannot redeclare class MyDB in /home/ubuntu/workspace/dbcleaner.php on line 53
+[Fri Mar 10 14:01:48.886288 2017] [:error] [pid 13338] [client 10.240.0.33:41188] PHP Warning:  SQLite3::query(): The SQLite3 object has not been correctly initialised in /home/ubuntu/workspace/dbcleaner.php on line 65
+[Fri Mar 10 14:01:48.886338 2017] [:error] [pid 13338] [client 10.240.0.33:41188] PHP Warning:  SQLite3::query(): The SQLite3 object has not been correctly initialised in /home/ubuntu/workspace/dbcleaner.php on line 65
+[Fri Mar 10 14:02:57.160666 2017] [:error] [pid 13339] [client 10.240.1.16:36862] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/dbcleaner.php on line 52
+[Fri Mar 10 14:03:29.943216 2017] [:error] [pid 13340] [client 10.240.0.5:59004] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/dbcleaner.php on line 52
+[Fri Mar 10 14:04:15.068686 2017] [:error] [pid 13700] [client 10.240.0.213:44042] PHP Warning:  SQLite3::query(): Unable to prepare statement: 1, near &quot;*&quot;: syntax error in /home/ubuntu/workspace/dbcleaner.php on line 65
+[Fri Mar 10 14:04:15.068774 2017] [:error] [pid 13700] [client 10.240.0.213:44042] PHP Warning:  SQLite3::query(): The SQLite3 object has not been correctly initialised in /home/ubuntu/workspace/dbcleaner.php on line 65
+[Fri Mar 10 14:04:15.068791 2017] [:error] [pid 13700] [client 10.240.0.213:44042] PHP Warning:  SQLite3::query(): The SQLite3 object has not been correctly initialised in /home/ubuntu/workspace/dbcleaner.php on line 65
+[Fri Mar 10 14:06:12.982813 2017] [:error] [pid 13336] [client 10.240.1.12:55902] PHP Warning:  SQLite3::query(): The SQLite3 object has not been correctly initialised in /home/ubuntu/workspace/dbcleaner.php on line 59
+[Fri Mar 10 14:06:12.982866 2017] [:error] [pid 13336] [client 10.240.1.12:55902] PHP Warning:  SQLite3::query(): The SQLite3 object has not been correctly initialised in /home/ubuntu/workspace/dbcleaner.php on line 59
+[Sat Mar 11 05:23:24.630166 2017] [core:warn] [pid 2650] AH00098: pid file /home/ubuntu/lib/apache2/run/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Mar 11 05:23:24.636047 2017] [mpm_prefork:notice] [pid 2650] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.21 configured -- resuming normal operations
+[Sat Mar 11 05:23:24.636095 2017] [core:notice] [pid 2650] AH00094: Command line: 'apache2'
+[Sat Mar 11 05:28:10.285105 2017] [core:info] [pid 2666] [client 10.240.0.214:38566] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://badha-montypythonkiller.c9users.io/
+[Sat Mar 11 06:01:42.876851 2017] [mpm_prefork:notice] [pid 2650] AH00169: caught SIGTERM, shutting down
+[Sat Mar 11 08:21:06.622819 2017] [mpm_prefork:notice] [pid 5454] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.21 configured -- resuming normal operations
+[Sat Mar 11 08:21:06.622976 2017] [core:notice] [pid 5454] AH00094: Command line: 'apache2'
+[Sat Mar 11 08:21:18.553049 2017] [core:info] [pid 5463] [client 10.240.0.5:33020] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://badha-montypythonkiller.c9users.io/
+[Sat Mar 11 08:21:36.901511 2017] [core:info] [pid 5463] [client 10.240.0.214:55460] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://badha-montypythonkiller.c9users.io/
+[Mon Mar 13 13:01:49.258203 2017] [core:warn] [pid 8382] AH00098: pid file /home/ubuntu/lib/apache2/run/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Mar 13 13:01:49.264464 2017] [mpm_prefork:notice] [pid 8382] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.21 configured -- resuming normal operations
+[Mon Mar 13 13:01:49.264503 2017] [core:notice] [pid 8382] AH00094: Command line: 'apache2'
+[Mon Mar 13 13:02:05.737216 2017] [core:info] [pid 8399] [client 10.240.1.30:42716] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://badha-montypythonkiller.c9users.io/index.php
+[Tue Mar 14 04:58:21.772038 2017] [core:warn] [pid 2266] AH00098: pid file /home/ubuntu/lib/apache2/run/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Mar 14 04:58:21.789147 2017] [mpm_prefork:notice] [pid 2266] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.21 configured -- resuming normal operations
+[Tue Mar 14 04:58:21.789197 2017] [core:notice] [pid 2266] AH00094: Command line: 'apache2'
+[Tue Mar 14 04:58:29.136249 2017] [core:info] [pid 2283] [client 10.240.1.30:34726] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://badha-montypythonkiller.c9users.io/index.php
+[Tue Mar 14 05:00:33.570879 2017] [core:info] [pid 2283] [client 10.240.0.240:41574] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://badha-montypythonkiller.c9users.io/
+[Tue Mar 14 05:17:35.079711 2017] [:error] [pid 2283] [client 10.240.0.240:51588] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 6
+[Tue Mar 14 05:18:04.341411 2017] [:error] [pid 2279] [client 10.240.1.12:56422] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 6
+[Tue Mar 14 05:18:33.564424 2017] [:error] [pid 2282] [client 10.240.0.33:43376] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 41
+[Tue Mar 14 05:18:50.204942 2017] [:error] [pid 2278] [client 10.240.0.33:43580] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 41
+[Tue Mar 14 05:20:31.906039 2017] [:error] [pid 2281] [client 10.240.0.33:44728] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Tue Mar 14 05:22:54.606339 2017] [:error] [pid 2283] [client 10.240.1.16:60978] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Tue Mar 14 05:28:04.812361 2017] [:error] [pid 2281] [client 10.240.0.213:50524] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Tue Mar 14 05:33:26.232790 2017] [:error] [pid 2283] [client 10.240.0.240:60360] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Tue Mar 14 05:35:45.194773 2017] [:error] [pid 2278] [client 10.240.0.33:54932] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Tue Mar 14 05:36:10.654668 2017] [:error] [pid 2281] [client 10.240.1.14:42690] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Tue Mar 14 05:37:39.785918 2017] [:error] [pid 2282] [client 10.240.0.213:59580] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Tue Mar 14 05:40:22.578012 2017] [:error] [pid 2283] [client 10.240.1.12:41704] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Tue Mar 14 05:45:49.777712 2017] [:error] [pid 2278] [client 10.240.0.213:38410] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Tue Mar 14 05:46:48.157143 2017] [:error] [pid 2279] [client 10.240.0.213:39292] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Tue Mar 14 05:47:25.954480 2017] [:error] [pid 2281] [client 10.240.0.33:34234] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Tue Mar 14 05:48:23.465212 2017] [:error] [pid 2282] [client 10.240.1.30:54490] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Tue Mar 14 05:49:16.674226 2017] [:error] [pid 2283] [client 10.240.0.33:35506] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Tue Mar 14 05:49:54.322843 2017] [:error] [pid 2278] [client 10.240.1.30:55154] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Tue Mar 14 05:56:56.500395 2017] [:error] [pid 2279] [client 10.240.0.240:42638] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Tue Mar 14 06:00:19.750700 2017] [:error] [pid 2281] [client 10.240.1.30:60660] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Tue Mar 14 06:01:00.808155 2017] [:error] [pid 2282] [client 10.240.0.213:50390] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Tue Mar 14 06:01:36.313472 2017] [:error] [pid 2283] [client 10.240.1.14:55422] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Tue Mar 14 06:02:00.293582 2017] [:error] [pid 2278] [client 10.240.0.33:40842] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Tue Mar 14 08:44:27.429187 2017] [:error] [pid 2279] [client 10.240.0.33:41492] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Tue Mar 14 08:44:40.204663 2017] [:error] [pid 2281] [client 10.240.0.213:55364] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 12:44:34.907860 2017] [core:warn] [pid 2274] AH00098: pid file /home/ubuntu/lib/apache2/run/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Mar 20 12:44:34.915285 2017] [mpm_prefork:notice] [pid 2274] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.21 configured -- resuming normal operations
+[Mon Mar 20 12:44:34.915317 2017] [core:notice] [pid 2274] AH00094: Command line: 'apache2'
+[Mon Mar 20 12:44:48.302699 2017] [:error] [pid 2287] [client 10.240.0.230:36800] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 12:45:20.506838 2017] [core:info] [pid 2288] [client 10.240.0.230:37048] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://badha-montypythonkiller.c9users.io/index.php
+[Mon Mar 20 12:45:30.160861 2017] [:error] [pid 2289] [client 10.240.1.12:44544] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 12:45:52.068251 2017] [:error] [pid 2290] [client 10.240.1.12:44792] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 12:46:16.042616 2017] [:error] [pid 2291] [client 10.240.0.5:52080] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 12:47:28.857416 2017] [:error] [pid 2287] [client 10.240.0.230:37928] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 12:47:41.896310 2017] [:error] [pid 2288] [client 10.240.1.14:42708] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 12:50:07.447625 2017] [:error] [pid 2289] [client 10.240.0.214:50432] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 12:50:25.985293 2017] [:error] [pid 2290] [client 10.240.0.230:39094] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 12:50:49.448439 2017] [:error] [pid 2291] [client 10.240.0.230:39316] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 12:51:05.797821 2017] [:error] [pid 2287] [client 10.240.0.214:51056] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 12:51:36.912821 2017] [:error] [pid 2288] [client 10.240.0.213:58844] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 12:52:11.021801 2017] [:error] [pid 2289] [client 10.240.0.214:51598] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 12:52:30.245571 2017] [:error] [pid 2290] [client 10.240.1.14:44602] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 12:53:34.640300 2017] [:error] [pid 2291] [client 10.240.1.12:49128] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 12:55:05.867149 2017] [:error] [pid 2287] [client 10.240.1.30:38042] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 12:55:25.365866 2017] [:error] [pid 2288] [client 10.240.0.230:41600] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 12:55:50.752377 2017] [:error] [pid 2289] [client 10.240.0.33:33350] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 12:56:38.530317 2017] [:error] [pid 2290] [client 10.240.1.30:38922] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 12:57:08.491037 2017] [:error] [pid 2291] [client 10.240.1.30:39158] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 12:57:33.532517 2017] [:error] [pid 2287] [client 10.240.1.30:39362] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 12:58:11.021728 2017] [:error] [pid 2288] [client 10.240.0.240:45404] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 12:59:40.604211 2017] [:error] [pid 2289] [client 10.240.1.30:40332] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 13:13:16.202421 2017] [:error] [pid 2290] [client 10.240.0.214:36462] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 13:14:28.473560 2017] [:error] [pid 2291] [client 10.240.0.33:43796] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 13:23:12.009699 2017] [:error] [pid 2287] [client 10.240.0.240:59628] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 13:25:21.640981 2017] [:error] [pid 2288] [client 10.240.0.240:60894] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 13:26:23.218649 2017] [:error] [pid 2289] [client 10.240.1.30:51460] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 13:26:59.534353 2017] [:error] [pid 2290] [client 10.240.0.230:56954] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 13:27:38.174824 2017] [:error] [pid 2291] [client 10.240.0.240:34403] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 13:27:53.673516 2017] [:error] [pid 2287] [client 10.240.0.33:50506] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 13:28:31.855403 2017] [:error] [pid 2288] [client 10.240.1.16:34412] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 13:31:01.844701 2017] [:error] [pid 2289] [client 10.240.0.33:52072] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 13:32:52.071298 2017] [:error] [pid 2290] [client 10.240.0.214:48712] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 13:33:34.853635 2017] [:error] [pid 2291] [client 10.240.1.14:39332] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 13:33:59.006129 2017] [:error] [pid 2287] [client 10.240.1.12:40658] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 13:34:36.456867 2017] [:error] [pid 2288] [client 10.240.1.16:37140] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 14:24:57.873861 2017] [:error] [pid 2289] [client 10.240.0.214:48836] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 14:25:18.443520 2017] [:error] [pid 2290] [client 10.240.1.30:51732] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 14:26:39.955882 2017] [:error] [pid 2287] [client 10.240.1.16:34902] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 14:30:14.175633 2017] [:error] [pid 2288] [client 10.240.1.14:39958] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 14:31:02.981465 2017] [:error] [pid 2289] [client 10.240.1.14:40428] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 14:31:22.608501 2017] [:error] [pid 2290] [client 10.240.1.14:40672] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 14:31:36.349369 2017] [:error] [pid 2291] [client 10.240.0.240:39944] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 14:34:13.269533 2017] [:error] [pid 2287] [client 10.240.1.12:41950] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 14:39:24.041514 2017] [:error] [pid 2288] [client 10.240.0.33:54206] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 14:47:59.850624 2017] [:error] [pid 2289] [client 10.240.0.214:60144] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 15:37:12.082069 2017] [:error] [pid 2290] [client 10.240.1.16:38114] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 15:42:17.337018 2017] [:error] [pid 2291] [client 10.240.0.214:60322] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 15:42:17.434506 2017] [core:info] [pid 2287] [client 10.240.0.5:38766] AH00128: File does not exist: /home/ubuntu/workspace/1, referer: https://badha-montypythonkiller.c9users.io/index.php
+[Mon Mar 20 15:42:17.521567 2017] [core:info] [pid 2288] [client 10.240.0.33:55096] AH00128: File does not exist: /home/ubuntu/workspace/0, referer: https://badha-montypythonkiller.c9users.io/index.php
+[Mon Mar 20 15:42:18.841245 2017] [core:info] [pid 2289] [client 10.240.0.213:33222] AH00128: File does not exist: /home/ubuntu/workspace/2, referer: https://badha-montypythonkiller.c9users.io/index.php
+[Mon Mar 20 15:48:41.534235 2017] [core:info] [pid 2290] [client 10.240.0.5:41252] AH00128: File does not exist: /home/ubuntu/workspace/0, referer: https://badha-montypythonkiller.c9users.io/index.php
+[Mon Mar 20 15:48:41.565051 2017] [core:info] [pid 2291] [client 10.240.1.30:53678] AH00128: File does not exist: /home/ubuntu/workspace/1, referer: https://badha-montypythonkiller.c9users.io/index.php
+[Mon Mar 20 15:48:41.574800 2017] [core:info] [pid 2287] [client 10.240.1.16:43038] AH00128: File does not exist: /home/ubuntu/workspace/2, referer: https://badha-montypythonkiller.c9users.io/index.php
+[Mon Mar 20 15:49:10.030035 2017] [:error] [pid 2288] [client 10.240.0.5:41446] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 15:49:23.685790 2017] [core:info] [pid 2289] [client 10.240.1.16:43302] AH00128: File does not exist: /home/ubuntu/workspace/0, referer: https://badha-montypythonkiller.c9users.io/index.php
+[Mon Mar 20 15:49:23.709796 2017] [core:info] [pid 2290] [client 10.240.1.30:53912] AH00128: File does not exist: /home/ubuntu/workspace/2, referer: https://badha-montypythonkiller.c9users.io/index.php
+[Mon Mar 20 15:49:24.311488 2017] [core:info] [pid 2291] [client 10.240.0.214:36036] AH00128: File does not exist: /home/ubuntu/workspace/1, referer: https://badha-montypythonkiller.c9users.io/index.php
+[Mon Mar 20 15:54:22.976401 2017] [:error] [pid 2287] [client 10.240.0.213:39404] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 15:54:24.406014 2017] [core:info] [pid 2288] [client 10.240.0.213:39414] AH00128: File does not exist: /home/ubuntu/workspace/0, referer: https://badha-montypythonkiller.c9users.io/index.php
+[Mon Mar 20 15:54:24.652998 2017] [core:info] [pid 2289] [client 10.240.0.213:39418] AH00128: File does not exist: /home/ubuntu/workspace/1, referer: https://badha-montypythonkiller.c9users.io/index.php
+[Mon Mar 20 15:54:25.307378 2017] [core:info] [pid 2290] [client 10.240.0.5:43742] AH00128: File does not exist: /home/ubuntu/workspace/2, referer: https://badha-montypythonkiller.c9users.io/index.php
+[Mon Mar 20 15:59:31.239694 2017] [:error] [pid 2291] [client 10.240.0.5:46308] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 16:00:18.311978 2017] [core:info] [pid 2287] [client 10.240.0.5:46668] AH00128: File does not exist: /home/ubuntu/workspace/0, referer: https://badha-montypythonkiller.c9users.io/index.php
+[Mon Mar 20 16:00:18.372370 2017] [core:info] [pid 2288] [client 10.240.0.5:46670] AH00128: File does not exist: /home/ubuntu/workspace/2, referer: https://badha-montypythonkiller.c9users.io/index.php
+[Mon Mar 20 16:00:18.965110 2017] [core:info] [pid 2289] [client 10.240.1.30:57562] AH00128: File does not exist: /home/ubuntu/workspace/1, referer: https://badha-montypythonkiller.c9users.io/index.php
+[Mon Mar 20 16:02:01.397158 2017] [:error] [pid 2290] [client 10.240.1.12:54152] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 16:16:27.364824 2017] [:error] [pid 2289] [client 10.240.1.12:58894] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 16:16:47.972593 2017] [:error] [pid 2290] [client 10.240.1.16:56870] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Mon Mar 20 16:17:53.601529 2017] [:error] [pid 2291] [client 10.240.1.16:57442] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Tue Mar 21 04:51:18.040585 2017] [core:warn] [pid 3677] AH00098: pid file /home/ubuntu/lib/apache2/run/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Mar 21 04:51:18.052831 2017] [mpm_prefork:notice] [pid 3677] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.21 configured -- resuming normal operations
+[Tue Mar 21 04:51:18.052905 2017] [core:notice] [pid 3677] AH00094: Command line: 'apache2'
+[Tue Mar 21 04:55:33.978361 2017] [:error] [pid 3686] [client 10.240.1.30:34638] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Tue Mar 21 04:55:37.813930 2017] [core:info] [pid 3689] [client 10.240.0.214:51592] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://badha-montypythonkiller.c9users.io/index.php
+[Tue Mar 21 04:55:41.171856 2017] [:error] [pid 3690] [client 10.240.0.214:51694] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Tue Mar 21 05:15:08.492997 2017] [:error] [pid 3691] [client 10.240.0.213:38580] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Tue Mar 21 05:15:15.425015 2017] [core:info] [pid 3691] [client 10.240.0.33:51134] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://badha-montypythonkiller.c9users.io/
+[Tue Mar 21 05:20:07.705346 2017] [:error] [pid 3687] [client 10.240.1.14:44866] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Tue Mar 21 05:20:19.543198 2017] [:error] [pid 3686] [client 10.240.1.30:56620] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Tue Mar 21 05:22:13.886943 2017] [:error] [pid 3689] [client 10.240.0.240:48450] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Tue Mar 21 05:22:24.054330 2017] [:error] [pid 3690] [client 10.240.0.230:40994] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Tue Mar 21 05:23:08.025014 2017] [:error] [pid 3691] [client 10.240.1.12:46486] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Tue Mar 21 05:23:13.020397 2017] [:error] [pid 3687] [client 10.240.1.16:58160] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Tue Mar 21 05:23:52.489315 2017] [:error] [pid 3686] [client 10.240.0.214:51204] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Tue Mar 21 05:24:22.248398 2017] [:error] [pid 3689] [client 10.240.1.14:49534] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Thu Mar 23 03:18:09.069930 2017] [core:warn] [pid 2790] AH00098: pid file /home/ubuntu/lib/apache2/run/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Mar 23 03:18:09.077180 2017] [mpm_prefork:notice] [pid 2790] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.21 configured -- resuming normal operations
+[Thu Mar 23 03:18:09.077220 2017] [core:notice] [pid 2790] AH00094: Command line: 'apache2'
+[Thu Mar 23 03:18:12.809998 2017] [:error] [pid 2803] [client 10.240.1.14:35106] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Thu Mar 23 03:18:14.210379 2017] [core:info] [pid 2804] [client 10.240.1.14:35152] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://badha-montypythonkiller.c9users.io/index.php
+[Thu Mar 23 03:20:07.175793 2017] [:error] [pid 2805] [client 10.240.1.12:33520] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Thu Mar 23 03:20:51.900514 2017] [:error] [pid 2804] [client 10.240.0.240:49996] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Thu Mar 23 03:21:27.105695 2017] [:error] [pid 2805] [client 10.240.0.213:54156] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Thu Mar 23 03:21:54.743101 2017] [:error] [pid 2806] [client 10.240.0.240:50570] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Thu Mar 23 03:23:44.754479 2017] [:error] [pid 2807] [client 10.240.0.213:56320] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Thu Mar 23 03:25:43.855239 2017] [:error] [pid 2803] [client 10.240.0.240:52842] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Thu Mar 23 03:26:14.022840 2017] [:error] [pid 2804] [client 10.240.0.230:55950] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Thu Mar 23 03:26:44.112891 2017] [:error] [pid 2805] [client 10.240.1.16:33926] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Thu Mar 23 03:27:13.262354 2017] [:error] [pid 2806] [client 10.240.0.213:58504] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Thu Mar 23 03:27:47.646272 2017] [:error] [pid 2807] [client 10.240.0.214:55104] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Thu Mar 23 03:35:00.433526 2017] [:error] [pid 2803] [client 10.240.1.12:41570] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Thu Mar 23 03:35:21.481619 2017] [:error] [pid 2804] [client 10.240.1.14:47400] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 14
+[Thu Mar 23 03:45:32.630848 2017] [:error] [pid 2805] [client 10.240.0.240:36672] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 15
+[Thu Mar 23 03:47:00.291995 2017] [:error] [pid 2807] [client 10.240.0.5:37774] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 15
+[Thu Mar 23 03:48:47.347990 2017] [:error] [pid 2804] [client 10.240.1.12:50444] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 15
+[Thu Mar 23 03:49:33.709629 2017] [:error] [pid 2806] [client 10.240.1.12:51498] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 15
+[Thu Mar 23 03:49:54.642420 2017] [:error] [pid 2803] [client 10.240.1.12:52002] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 15
+[Thu Mar 23 03:50:08.165777 2017] [:error] [pid 2804] [client 10.240.1.12:52298] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 15
+[Thu Mar 23 03:50:28.690142 2017] [:error] [pid 2805] [client 10.240.1.14:58254] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/ubuntu/workspace/index.php on line 15
